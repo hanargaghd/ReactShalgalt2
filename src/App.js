@@ -1,9 +1,13 @@
 import React from "react"
+// import Blue2 from "./components/blue2";
+// import pageData from "./components/data"
+// import BlueJS from "./components/blue/blue.JS";
 import Box from "./container/box";
-// import Blue from "./components/blue/blue.JS";
 function App() {
   return (
-    <Box/>
+      // <BlueJS/>
+      <Box/>
+      // <pageData/>
   );
 }
 

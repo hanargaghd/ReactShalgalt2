@@ -1,55 +1,27 @@
-.button-top_left{
-    width: 250px;
-    height: 250px;
+.button-left{
+    width: 100px;
+    height: 50px;
     background-color: red;
     color: black;
-    position: absolute;
-    font-size: 2rem;
-    top: 0%;
-    left: 0%;
+    font-size: 1rem;
+    border-radius: 45px;
 }
-.button-top_right{
-    width: 250px;
-    height: 250px;
-    background-color: blue;
-    color: white;
-    font-size: 2rem;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-}
-.button-bottom_left{
-    width: 250px;
-    height: 250px;
+.button-middle{
+    width: 100px;
+    height: 50px;
     background-color: lime;
     color: black;
-    font-size: 2rem;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
+    font-size: 1rem;
+    border-radius: 45px;
 }
-.button-bottom_right{
-    width: 250px;
-    height: 250px;
+.button-right{
+    width: 100px;
+    height: 50px;
     background-color: blue;
     color: white;
-    font-size: 2rem;
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
+    font-size: 1rem;
+    border-radius: 45px;
 }
-.button-top_left:hover{cursor: pointer;}
-.button-top_right:hover{cursor: pointer;}
-.button-bottom_left:hover{cursor: pointer;}
-.button-bottom_right:hover{cursor: pointer;}
-.img{
-    width: 250px;
-    height: 250px;
-}
-.hide{
-    display: none;
-}
-.body{
-    display: flex;
-    position: relative;
-}
+.button-left:hover{cursor: pointer;}
+.button-middle:hover{cursor: pointer;}
+.button-right:hover{cursor: pointer;}
